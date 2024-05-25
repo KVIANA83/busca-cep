@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="./styles/style.css"/>
+  <title>Busca CEP</title>
+</head>
+<body>
+  <header>
+    <!-- TOPO -->
+    <nav class="topo">
+      <h1 class="titulo">
+        BUSCA CEP
+      </h1>
+    </nav>
+  </header>
+  
+  <!-- CORPO -->
+  <main>
+    <section>
+      <form id="cep-form">
+        <div class="campo-superior">
+          <!-- Usuário insere as informações -->
+          <div class="campo">
+            <label for="cep">Digite o CEP:</label>
+            <input type="text" name="cep" id="cep" placeholder="Digite o CEP">
+          </div>
+        
+          <!-- Botão Consultar -->
+          <div class="btn-buscar">
+            <input type="submit" value="BUSCAR">
+          </div>
+        </div> <!-- Fim div campo-superior -->
+        
+        <!-- Endereço -->
+        <div class="campo">
+          <label for="endereco">Endereço:</label>
+          <input type="text" name="endereco" id="endereco" placeholder="Endereço">
+        </div>
+        
+        <!-- Bairro -->
+        <div class="campo">
+          <label for="bairro">Bairro:</label>
+          <input type="text" name="bairro" id="bairro" placeholder="Bairro">
+        </div>
+        
+        <div class="campo-inferior">
+          <!-- Cidade -->
+          <div class="campo">
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade" placeholder="Cidade">
+          </div>
+        
+          <!-- UF -->
+          <div class="campo">
+            <label for="uf">UF:</label>
+            <input type="text" name="uf" id="uf" placeholder="UF">
+          </div>
+        </div> <!-- Fim div campo-inferior -->
+      </form>
+    </section>
+  </main>
+  
+  <!-- RODAPÉ -->
+  <footer>
+    <div class="rodape"></div>
+  </footer>
+  
+  <!-- JAVASCRIPT -->
+  <script src="./js/script.js"></script>
+</body>
+</html>
